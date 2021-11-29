@@ -10,5 +10,11 @@ public class FunctionExample {
 
         Predicate<Integer> isEven = i -> i % 2 == 0;
         System.out.println(isEven.test(5));
+
+        PrintFunctionalInterface cfi = () -> System.out.println("hello");
+        cfi.print();
+
+        SumFunctionalInterface sfi = (a, b) -> System.out.println("sum: " + (a + b));
+        sfi.sum(10, 20);
     }
 }
