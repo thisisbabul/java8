@@ -23,3 +23,4 @@
     Example: Write the points whatever there on the screen in your notes pages with pen.
     Runnable => run()
     Comparable => compareTo()
+    Comparator => compare
