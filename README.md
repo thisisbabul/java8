@@ -30,3 +30,5 @@
     Thread t = new Thread() {
         //Writing a class that extends Thread class
     };
+
+**Default method | Virtual method | Defender method :** Add a new method to the interface without effecting implementation classes. 
