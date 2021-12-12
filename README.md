@@ -9,7 +9,7 @@
 8. Optional class
 9. Nashron javascript engine
 
-**Lambda expression:** It is an anonymous (Nameless, without return type, without modifiers) function.
+**Lambda expression:** It is an anonymous (Nameless, without return type, without modifiers) function. Lambda expression is applicable only for functional interface.
 
     Note: Without curly braces we can't use return keyword. Within curly braces if we return some value, compulsory we should use return statement.
     n -> return n * n; //invalid
@@ -24,3 +24,9 @@
     Runnable => run()
     Comparable => compareTo()
     Comparator => compare
+
+**Anonymous inner class:** Java anonymous inner class is an inner class without a name and for which only a single object created. Anonymous is applicable only for if available multiple abstract method in that interface. 
+    
+    Thread t = new Thread() {
+        //Writing a class that extends Thread class
+    };
