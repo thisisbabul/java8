@@ -31,4 +31,11 @@
         //Writing a class that extends Thread class
     };
 
-**Default method | Virtual method | Defender method :** Add a new method to the interface without effecting implementation classes. 
+**Default method | Virtual method | Defender method :** Add a new method to the interface without effecting implementation classes.
+
+**Predefine functional interface:**
+    
+    - Predicate //for conditional check
+    - Function
+    - Consumer
+    - Supplier   
