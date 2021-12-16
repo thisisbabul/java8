@@ -10,11 +10,7 @@ public class PredicateExample {
         System.out.println(isEven.test(10));
 
         Predicate<Employee> isSalaryGreaterThan3000 = e -> e.salary > 3000;
-        List<Employee> employees = new ArrayList<>();
-        employees.add(new Employee("babul", 2000D));
-        employees.add(new Employee("anika", 3000D));
-        employees.add(new Employee("sujon", 4000D));
-        employees.add(new Employee("samima", 5000D));
+        List<Employee> employees = EmployeeUtils.getEmployees();
 
         for (Employee employee: employees) {
             if (isSalaryGreaterThan3000.test(employee)) {
