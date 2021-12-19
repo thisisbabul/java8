@@ -39,3 +39,5 @@
     - Function
     - Consumer
     - Supplier   
+
+**Unary Operator:** If input and output are same type then we should go for Unary Operator. It's child of Function<T,T>.
