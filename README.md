@@ -41,3 +41,13 @@
     - Supplier   
 
 **Unary Operator:** If input and output are same type then we should go for Unary Operator. It's child of Function<T,T>.
+
+**Collection:** Represent a group of objects as a single entity.
+
+**Stream:** Process objects from the collection.
+
+**Comparator:** compare(obj1, obj2)
+
+    > return -ve if obj1 has to come before obj2
+    > return +ve if obj1 has to come after obj2
+    > return 0 if obj1 & obj2 are equal
